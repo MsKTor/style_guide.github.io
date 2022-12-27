@@ -1,0 +1,96 @@
+h2 {
+    margin-left: 5px;
+}
+
+.boxes {
+    margin: 10px auto;
+    width: 90%;
+    border: 2px solid black;
+
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Source Code Pro', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#navy {
+    background-color: navy;
+
+}
+
+#maroon {
+    background-color: maroon;
+
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#magenta {
+    background-color: magenta;
+}
+
+#SourceCodePro {
+    font-family: "Source Code Pro";
+}
+
+#RobotoMono {
+    font-family: "Roboto Mono";
+}
+
+#Sevillana {
+    font-family: "Sevillana";
+}
+
+.fonts li {
+    color: black;
+}
+
+strong {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.description li {
+    line-height: 0px;
+    display: list-item;
+    color: black;
+}
+
+#h1 {
+    font-weight: 700;
+    font-size: 26px ;
+    font-family: Source Code Pro;
+}
+#h2{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Sevillana  ;
+}
+#p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Roboto Mono;
+}
+
+.breadcrumb li{
+    display: inline;
+  }
+  
+  .breadcrumb:active a:active{
+    cursor:pointer;
+  }
+  .breadcrumb:hover a:hover{
+    color: red;
+  }
+  
+  .breadcrumb li+li::before{
+    color: gray;
+    content: ">";
+  }
